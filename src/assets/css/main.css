@@ -387,10 +387,9 @@ body {
   width: 160px;
   height: 160px;
   position: absolute;
-  left: 47%;
+  left: 50%;
   top: 22px;
   transform: translateX(-50%);
-  transform: rotate(-25deg);
   border-radius: 50%;
   z-index: 100;
 }
@@ -587,6 +586,97 @@ body {
   letter-spacing: 0px;
   text-align: left;
   padding-top: 10px;
+}
+
+.works {
+  background: rgb(10, 119, 95);
+  width: 100%;
+  height: 826px;
+}
+.works .works_title {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: center;
+  padding-top: 50px;
+}
+.works .work_btn {
+  width: 193px;
+  height: 51px;
+  border: none;
+  border-radius: 100px;
+  background: rgb(201, 155, 103);
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 1px;
+  margin-top: 60px;
+}
+
+.plan_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 80px;
+}
+.plan_wrapper .plan_mini {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.plan_wrapper .plan_square {
+  box-sizing: border-box;
+  border: 4px solid rgb(201, 155, 103);
+  background: rgb(248, 248, 242);
+  width: 60px;
+  height: 60px;
+}
+.plan_wrapper .plan_dashed {
+  width: 400px;
+  height: 0px;
+  border: 3px dashed rgb(201, 155, 103);
+}
+.plan_wrapper .plan_box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 433px;
+  background: rgb(248, 248, 242);
+  padding: 20px 20px 40px 20px;
+  list-style: none;
+}
+.card .card_num {
+  color: rgba(51, 51, 51, 0.782);
+  font-family: Roboto;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75px;
+  display: flex;
+  justify-content: end;
+}
+.card .card_title {
+  width: 231px;
+  padding-top: 45px;
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+}
+.card .card_suptitle {
+  padding-top: 10px;
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
 }
 
 footer {

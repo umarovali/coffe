@@ -1,0 +1,35 @@
+.card {
+    width: 433px;
+    background: rgb(248, 248, 242);
+    padding: 20px 20px 40px 20px;
+    list-style: none;
+
+    .card_num {
+        color: rgba(51, 51, 51, 0.782);
+        font-family: Roboto;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 75px;
+        display: flex;
+        justify-content: end;
+    }
+
+    .card_title {
+        width: 231px;
+        padding-top: 45px;
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 47px;
+    }
+
+    .card_suptitle {
+        padding-top: 10px;
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+}
