@@ -4,7 +4,7 @@ import simpleyImg from "../../../assets/images/sympley/simpleyImg.png";
 export const Simpley = () => {
   return (
     <>
-      <div className="simpley">
+      <section className="simpley">
         <div className="simpley_left_width">
           <div className="simpley_l">
             <div className="simpley_l_title">Good coffee is made simply.</div>
@@ -20,7 +20,7 @@ export const Simpley = () => {
         <div className="simpley_r">
           <img src={simpleyImg} alt="" />
         </div>
-      </div>
+      </section>
     </>
   );
 };
