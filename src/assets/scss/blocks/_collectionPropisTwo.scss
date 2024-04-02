@@ -1,0 +1,36 @@
+.colPropisTwo__l__r {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+
+  .colPropisTwo__l img {
+    width: 450px;
+    height: 375px;
+  }
+
+  .colPropisTwo__r {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .colPropisTitleTwo {
+      color: rgb(51, 51, 51);
+      font-family: Roboto;
+      font-size: 45px;
+      font-weight: 500;
+      line-height: 56px;
+      text-align: left;
+    }
+    .colPropisSupTitleTwo {
+      width: 453px;
+      color: rgb(51, 51, 51);
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 34px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+}
