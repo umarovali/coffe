@@ -13,7 +13,7 @@ export default function FootLink() {
             <Link to="/about-us">ABOUT US</Link>
           </li>
           <li className="link" >
-            <Link to="/create-plan">Create your plan</Link>
+            <Link to="/create">Create your plan</Link>
           </li>
         </ul>
       </nav>
