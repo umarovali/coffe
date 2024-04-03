@@ -770,6 +770,44 @@ body {
   text-align: left;
 }
 
+.quality {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 510px;
+  background: rgb(201, 155, 103);
+  margin-top: 160px;
+}
+.quality .quality__l__r {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.quality .quality__l__r .quality__l {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.quality .quality__l__r .quality__l h2 {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.quality .quality__l__r .quality__l p {
+  width: 639px;
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
 footer {
   width: 100%;
   height: 160px;
