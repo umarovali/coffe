@@ -346,6 +346,7 @@ template {
 
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 li {
@@ -402,7 +403,7 @@ li {
 
 .simpley {
   width: 100%;
-  height: 655px;
+  height: 650px;
   background-image: linear-gradient(rgba(243, 215, 183, 0.568), rgba(243, 215, 183, 0.636)), url("../images/variblesImg/orang.svg ");
   display: flex;
   align-items: center;
@@ -731,7 +732,7 @@ li {
 
 .herro {
   width: 100%;
-  height: 600px;
+  height: 598px;
   background-image: linear-gradient(rgba(243, 215, 183, 0.568), rgba(243, 215, 183, 0.636)), url("../images/variblesImg/orang.svg ");
   background-blend-mode: normal, overlay;
 }
@@ -941,6 +942,25 @@ li {
   width: 100%;
   padding: 50px 0px;
   margin-top: 20px;
+  position: relative;
+}
+.ques .lasis_img_2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 22%;
+  left: calc(50% + 711px);
+  pointer-events: all;
+  z-index: 1000;
+}
+.ques .lasis_img_1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 55%;
+  right: calc(50% + 711px);
+  pointer-events: all;
+  z-index: 1000;
 }
 .ques .ques_left_right {
   display: flex;
@@ -1017,15 +1037,15 @@ li {
   cursor: pointer;
 }
 .ques .ques_right .ques_right_wrapper .ques_block .ques_card:hover {
-  background: #0A775F;
-  color: #FFFFFF;
+  background: #0a775f;
+  color: #ffffff;
 }
 .ques .ques_right .ques_right_wrapper .ques_block .ques_card_active {
-  background: #0A775F;
+  background: #0a775f;
   width: 176px;
   height: 190px;
   padding: 30px 16px 0px 16px;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .ques .ques_right .ques_right_wrapper .ques_block .ques_title {
@@ -1050,8 +1070,8 @@ li {
 .ques .ques_right .ques_order .ques_order_bg {
   width: 620px;
   height: 101px;
-  background: rgb(201, 155, 103);
   margin-top: 100px;
+  background-image: linear-gradient(rgba(242, 174, 126, 0.603), rgba(242, 174, 126, 0.603)), url("../images/variblesImg/orangDark.svg");
   padding: 40px 20px;
 }
 .ques .ques_right .ques_order .ques_order_title {
@@ -1068,7 +1088,7 @@ li {
   font-size: 24px;
   font-weight: 500;
   line-height: 34px;
-  color: #FFF;
+  color: #fff;
 }
 .ques .ques_right .ques_order .ques_order_suptitle span {
   color: #333333;
