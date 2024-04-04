@@ -875,6 +875,156 @@ li {
   margin-top: 20px;
 }
 
+.ques {
+  width: 100%;
+  padding: 50px 0px;
+  margin-top: 20px;
+}
+.ques .ques_left_right {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.ques .ques_left {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 30px;
+}
+.ques .ques_left .ques_list {
+  color: rgb(85, 85, 85);
+  font-family: Roboto;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 33px;
+  transition: 0.5s linear;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+.ques .ques_left .ques_list::after {
+  content: "";
+  width: 100%;
+  height: 0px;
+  border: 3px dashed rgb(201, 155, 103);
+  transform: scale(0);
+  transition: 0.5s linear;
+}
+.ques .ques_left .ques_list:hover::after {
+  transform: scale(1);
+}
+.ques .ques_left .ques_list:hover {
+  color: rgb(0, 0, 0);
+}
+.ques .ques_right .ques_right_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.ques .ques_right .ques_right_wrapper .ques_name {
+  width: 660px;
+  color: rgb(0, 0, 0);
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 60px;
+  cursor: pointer;
+}
+.ques .ques_right .ques_right_wrapper .ques_arrow {
+  color: #333333;
+  font-size: 28px;
+}
+.ques .ques_right .ques_right_wrapper .ques_block {
+  width: 660px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.ques .ques_right .ques_right_wrapper .ques_block .ques_card {
+  background: rgba(10, 119, 95, 0.2);
+  width: 176px;
+  height: 190px;
+  padding: 30px 16px 0px 16px;
+  color: rgb(51, 51, 51);
+  transition: 0.7s ease-in-out;
+  cursor: pointer;
+}
+.ques .ques_right .ques_right_wrapper .ques_block .ques_card:hover {
+  background: #0A775F;
+  color: #FFFFFF;
+}
+.ques .ques_right .ques_right_wrapper .ques_block .ques_card_active {
+  background: #0A775F;
+  width: 176px;
+  height: 190px;
+  padding: 30px 16px 0px 16px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.ques .ques_right .ques_right_wrapper .ques_block .ques_title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.ques .ques_right .ques_right_wrapper .ques_block .ques_suptitle {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 10px;
+}
+.ques .ques_right .ques_order {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 20px;
+}
+.ques .ques_right .ques_order .ques_order_bg {
+  width: 620px;
+  height: 101px;
+  background: rgb(201, 155, 103);
+  margin-top: 100px;
+  padding: 40px 20px;
+}
+.ques .ques_right .ques_order .ques_order_title {
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.ques .ques_right .ques_order .ques_order_suptitle {
+  padding-top: 14px;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #FFF;
+}
+.ques .ques_right .ques_order .ques_order_suptitle span {
+  color: #333333;
+}
+.ques .ques_right .ques_order .ques_btn {
+  width: 175px;
+  height: 51px;
+  border-radius: 100px;
+  background: rgb(10, 119, 95);
+  color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 1px;
+  border: none;
+}
+
 footer {
   width: 100%;
   height: 160px;
