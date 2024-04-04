@@ -5,11 +5,11 @@ export const Commit = () => {
   return (
     <section className="commit">
       <div className="container">
-        <div className="commit__l__r">
-          <div className="commit__l">
+        <ul className="commit__l__r">
+          <li className="commit__l">
             <img src={commmitImg} alt="" />
-          </div>
-          <div className="commit__r">
+          </li>
+          <li className="commit__r">
             <h2>Our commitment</h2>
             <p>
               We’re built on a simple mission and a commitment to doing good
@@ -25,8 +25,8 @@ export const Commit = () => {
               each lot to highlight tasting profiles distinctive to their native
               growing region.
             </p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
   );
