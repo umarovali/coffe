@@ -361,9 +361,10 @@ li {
 .header {
   width: 100%;
   height: 104px;
-  background: rgb(243, 215, 183);
+  background-image: url("../images/variblesImg/orang.svg");
   display: flex;
   align-items: center;
+  image-rendering: optimizeQuality;
 }
 .header .header_left_right {
   display: flex;
@@ -402,7 +403,7 @@ li {
 .simpley {
   width: 100%;
   height: 655px;
-  background: rgb(243, 215, 183);
+  background-image: url("../images/variblesImg/orang.svg");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -459,7 +460,7 @@ li {
   padding: 50px 0px;
   width: 100%;
   height: 100%;
-  background: rgb(248, 248, 242);
+  background-image: url("../images/variblesImg/whaiti.png");
 }
 .collection .collectionTitle {
   color: rgb(0, 0, 0);
@@ -542,7 +543,7 @@ li {
 .choose {
   width: 100%;
   height: 703px;
-  background: rgb(201, 155, 103);
+  background-image: url("../images/variblesImg/orangDark.svg");
   margin-bottom: 289px;
 }
 .choose .choose_why {
@@ -594,7 +595,7 @@ li {
 }
 
 .works {
-  background: rgb(10, 119, 95);
+  background-image: url("../images/variblesImg/Green.svg");
   width: 100%;
   height: 826px;
 }
@@ -684,6 +685,13 @@ li {
   line-height: 28px;
 }
 
+
+.herro {
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/variblesImg/orang.svg");
+}
+
 .herro .herro__l__r {
   display: flex;
   align-items: center;
@@ -732,7 +740,7 @@ li {
 .commit {
   width: 100%;
   height: 740px;
-  background: rgb(248, 248, 242);
+  background-image: url("../images/variblesImg/whaiti.png");
   display: flex;
   align-items: center;
 }
@@ -775,7 +783,7 @@ li {
   align-items: center;
   width: 100%;
   height: 510px;
-  background: rgb(201, 155, 103);
+  background-image: url("../images/variblesImg/orangDark.svg");
   margin-top: 160px;
 }
 .quality .quality__l__r {
@@ -811,7 +819,7 @@ li {
 .headquarters {
   width: 100%;
   height: 685px;
-  background: rgb(10, 119, 95);
+  background-image: url("../images/variblesImg/Green.svg");
   margin-top: 30px;
 }
 .headquarters h2 {
@@ -877,11 +885,11 @@ li {
 
 footer {
   width: 100%;
-  height: 160px;
-  background: rgb(243, 215, 183);
+  height: 135px;
   margin-top: 50px;
   display: flex;
   align-items: center;
+  background-image: url("../images/variblesImg/orang.svg");
 }
 footer .footer_wrapper {
   display: flex;
@@ -910,6 +918,10 @@ ul {
   align-items: center;
   gap: 30px;
 }
+.icon img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .link a {
   color: rgb(0, 0, 0);
@@ -920,5 +932,6 @@ ul {
   letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 70px;
+  position: relative;
+  top: 10px;
 }/*# sourceMappingURL=main.css.map */
