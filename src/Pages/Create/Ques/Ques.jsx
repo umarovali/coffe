@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import QuesList from './QuesList/QuesList';
 import QuesItem from './QuesItem/QuesItem';
 import QuesOrder from './QuesOrder/QuesOrder';
+// img
+import lasis2 from "../../../assets/images/lasis/lasis2.svg"
+import lasis1 from "../../../assets/images/lasis/lasis1.svg"
 
 export default function Ques() {
 
@@ -116,11 +119,10 @@ export default function Ques() {
         }
     ]
 
-
-
-
     return (
         <section className='ques'>
+            <img className='lasis_img_2' src={lasis2} alt="" />
+            <img className='lasis_img_1' src={lasis1} alt="" />
             <div className="container">
                 <div className="ques_left_right">
                     <ul className="ques_left">

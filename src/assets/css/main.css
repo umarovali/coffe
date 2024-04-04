@@ -346,6 +346,7 @@ template {
 
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 li {
@@ -941,6 +942,25 @@ li {
   width: 100%;
   padding: 50px 0px;
   margin-top: 20px;
+  position: relative;
+}
+.ques .lasis_img_2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 22%;
+  left: calc(50% + 711px);
+  pointer-events: all;
+  z-index: 1000;
+}
+.ques .lasis_img_1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 55%;
+  right: calc(50% + 711px);
+  pointer-events: all;
+  z-index: 1000;
 }
 .ques .ques_left_right {
   display: flex;
