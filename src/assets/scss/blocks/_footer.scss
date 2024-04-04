@@ -4,8 +4,12 @@ footer {
   margin-top: 50px;
   display: flex;
   align-items: center;
-  background-image: url("#{$bg-orang}");
-  
+  background-image: linear-gradient(
+      rgba(243, 215, 183, 0.568),
+      rgba(243, 215, 183, 0.636)
+    ),
+    url("#{$bg-orang}");
+
   .footer_wrapper {
     display: flex;
     justify-content: space-between;

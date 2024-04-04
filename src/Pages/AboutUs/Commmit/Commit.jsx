@@ -1,10 +1,13 @@
 import React from "react";
 import commmitImg from "../../../assets/images/commit/commit.png";
+import lasis4 from "../../../assets/images/lasis/lasis1.svg";
 
 export const Commit = () => {
   return (
     <section className="commit">
       <div className="container">
+        <img className="lasis4" src={lasis4} alt="" />
+
         <ul className="commit__l__r">
           <li className="commit__l">
             <img src={commmitImg} alt="" />

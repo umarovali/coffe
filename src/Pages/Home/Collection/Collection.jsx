@@ -2,12 +2,19 @@ import React from "react";
 import Our from "../../../assets/images/collection/our.png";
 import { CollectionPropis } from "./CollectionPropis";
 import { CollectionPropisTwo } from "./CollectionPropisTwo";
+import lasis1 from "../../../assets/images/lasis/lasis1.svg";
+import lasis2 from "../../../assets/images/lasis/lasis2.svg";
+import lasis3 from "../../../assets/images/lasis/lasis3.svg";
 
 export const Collection = () => {
   return (
     <>
       <section className="collection">
         <div className="container">
+          <img className="lasis1" src={lasis1} alt="" />
+          <img className="lasis2" src={lasis2} alt="" />
+          <img className="lasis3" src={lasis3} alt="" />
+
           <center>
             <h2 className="collectionTitle">our collection</h2>
           </center>
