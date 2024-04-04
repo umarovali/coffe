@@ -1,30 +1,43 @@
 .works {
-    background-image: url("#{$bg-Green}");
-    width: 100%;
-    height: 826px;
+  background-image: linear-gradient(
+      rgba(10, 119, 95, 0.417),
+      rgba(10, 119, 95, 0.498)
+    ),
+    url("#{$bg-Green}");
+  width: 100%;
+  height: 826px;
+  position: relative;
 
-    .works_title {
-        color: rgb(255, 255, 255);
-        font-family: Roboto;
-        font-size: 50px;
-        font-weight: 700;
-        line-height: 59px;
-        text-align: center;
-        padding-top: 50px;
-    }
+  .works_title {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: center;
+    padding-top: 50px;
+  }
 
-    .work_btn {
-        width: 193px;
-        height: 51px;
-        border: none;
-        border-radius: 100px;
-        background: rgb(201, 155, 103);
-        color: rgb(255, 255, 255);
-        font-family: Roboto;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19px;
-        letter-spacing: 1px;
-        margin-top: 60px;
-    }
+  .work_btn {
+    width: 193px;
+    height: 51px;
+    border: none;
+    border-radius: 100px;
+    background: rgb(201, 155, 103);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 1px;
+    margin-top: 60px;
+  }
+
+  .stiker2 {
+    object-fit: cover;
+    position: absolute;
+    top: 5%;
+    left: calc(50% + 450px);
+    pointer-events: all;
+  }
 }

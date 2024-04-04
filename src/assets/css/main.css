@@ -361,7 +361,7 @@ li {
 .header {
   width: 100%;
   height: 104px;
-  background-image: url("../images/variblesImg/orang.svg");
+  background-image: linear-gradient(rgba(243, 215, 183, 0.568), rgba(243, 215, 183, 0.636)), url("../images/variblesImg/orang.svg ");
   display: flex;
   align-items: center;
   image-rendering: optimizeQuality;
@@ -403,7 +403,7 @@ li {
 .simpley {
   width: 100%;
   height: 655px;
-  background-image: url("../images/variblesImg/orang.svg");
+  background-image: linear-gradient(rgba(243, 215, 183, 0.568), rgba(243, 215, 183, 0.636)), url("../images/variblesImg/orang.svg ");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -461,6 +461,8 @@ li {
   width: 100%;
   height: 100%;
   background-image: url("../images/variblesImg/whaiti.png");
+  position: relative;
+  background-blend-mode: overlay;
 }
 .collection .collectionTitle {
   color: rgb(0, 0, 0);
@@ -470,6 +472,30 @@ li {
   line-height: 59px;
   letter-spacing: 0px;
   text-align: center;
+}
+.collection .lasis1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 6%;
+  right: calc(50% + 501px);
+  pointer-events: all;
+}
+.collection .lasis2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 45%;
+  left: calc(50% + 501px);
+  pointer-events: all;
+}
+.collection .lasis3 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 77%;
+  right: calc(50% + 550px);
+  pointer-events: all;
 }
 
 .colPropis__l__r {
@@ -543,8 +569,9 @@ li {
 .choose {
   width: 100%;
   height: 703px;
-  background-image: url("../images/variblesImg/orangDark.svg");
+  background-image: linear-gradient(rgba(201, 144, 103, 0.603), rgba(201, 144, 103, 0.603)), url("../images/variblesImg/orangDark.svg");
   margin-bottom: 289px;
+  position: relative;
 }
 .choose .choose_why {
   color: rgb(255, 255, 255);
@@ -593,11 +620,20 @@ li {
   text-align: left;
   padding-top: 10px;
 }
+.choose .stiker1 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 30%;
+  right: calc(50% + 580px);
+  pointer-events: all;
+}
 
 .works {
-  background-image: url("../images/variblesImg/Green.svg");
+  background-image: linear-gradient(rgba(10, 119, 95, 0.417), rgba(10, 119, 95, 0.498)), url("../images/variblesImg/Green.svg");
   width: 100%;
   height: 826px;
+  position: relative;
 }
 .works .works_title {
   color: rgb(255, 255, 255);
@@ -621,6 +657,14 @@ li {
   line-height: 19px;
   letter-spacing: 1px;
   margin-top: 60px;
+}
+.works .stiker2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 5%;
+  left: calc(50% + 450px);
+  pointer-events: all;
 }
 
 .plan_wrapper {
@@ -685,20 +729,18 @@ li {
   line-height: 28px;
 }
 
-
 .herro {
   width: 100%;
   height: 600px;
-  background-image: url("../images/variblesImg/orang.svg");
+  background-image: linear-gradient(rgba(243, 215, 183, 0.568), rgba(243, 215, 183, 0.636)), url("../images/variblesImg/orang.svg ");
+  background-blend-mode: normal, overlay;
 }
-
 .herro .herro__l__r {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 600px;
-  background: rgb(243, 215, 183);
 }
 .herro .herro__l__r .herro__l__width {
   width: 50%;
@@ -743,6 +785,7 @@ li {
   background-image: url("../images/variblesImg/whaiti.png");
   display: flex;
   align-items: center;
+  position: relative;
 }
 .commit .commit__l__r {
   display: flex;
@@ -777,14 +820,23 @@ li {
   letter-spacing: 0px;
   text-align: left;
 }
+.commit .lasis4 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 10%;
+  right: calc(50% + 650px);
+  pointer-events: all;
+}
 
 .quality {
   display: flex;
   align-items: center;
   width: 100%;
   height: 510px;
-  background-image: url("../images/variblesImg/orangDark.svg");
+  background-image: linear-gradient(rgba(201, 144, 103, 0.603), rgba(201, 144, 103, 0.603)), url("../images/variblesImg/orangDark.svg");
   margin-top: 160px;
+  background-blend-mode: overlay;
 }
 .quality .quality__l__r {
   display: flex;
@@ -819,7 +871,7 @@ li {
 .headquarters {
   width: 100%;
   height: 685px;
-  background-image: url("../images/variblesImg/Green.svg");
+  background-image: linear-gradient(rgba(10, 119, 95, 0.417), rgba(10, 119, 95, 0.498)), url("../images/variblesImg/Green.svg");
   margin-top: 30px;
 }
 .headquarters h2 {
@@ -879,7 +931,9 @@ li {
 .step {
   width: 100%;
   height: 636px;
-  background: rgb(10, 119, 95);
+  background-image: linear-gradient(rgba(10, 119, 95, 0.417), rgba(10, 119, 95, 0.498)), url("../images/variblesImg/Green.svg");
+  -o-object-fit: cover;
+     object-fit: cover;
   margin-top: 20px;
 }
 
@@ -889,7 +943,7 @@ footer {
   margin-top: 50px;
   display: flex;
   align-items: center;
-  background-image: url("../images/variblesImg/orang.svg");
+  background-image: linear-gradient(rgba(243, 215, 183, 0.568), rgba(243, 215, 183, 0.636)), url("../images/variblesImg/orang.svg ");
 }
 footer .footer_wrapper {
   display: flex;

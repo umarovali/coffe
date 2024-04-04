@@ -4,6 +4,7 @@
   background-image: url("#{$bg-whaiti}");
   display: flex;
   align-items: center;
+  position: relative;
 
   .commit__l__r {
     display: flex;
@@ -41,5 +42,12 @@
       letter-spacing: 0px;
       text-align: left;
     }
+  }
+  .lasis4 {
+    object-fit: cover;
+    position: absolute;
+    top: 10%;
+    right: calc(50% + 650px);
+    pointer-events: all;
   }
 }
