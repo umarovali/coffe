@@ -877,10 +877,10 @@ li {
 footer {
   width: 100%;
   height: 135px;
-  background-image: url("../images/variblesImg/orang.svg");
   margin-top: 50px;
   display: flex;
   align-items: center;
+  background-image: url("../images/variblesImg/orang.svg");
 }
 footer .footer_wrapper {
   display: flex;
