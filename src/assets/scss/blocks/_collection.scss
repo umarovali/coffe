@@ -2,7 +2,9 @@
   padding: 50px 0px;
   width: 100%;
   height: 100%;
-  background: rgb(248, 248, 242);
+  background-image: url("#{$bg-whaiti}");
+  position: relative;
+  background-blend-mode: overlay;
 
   .collectionTitle {
     color: rgb(0, 0, 0);
@@ -12,5 +14,27 @@
     line-height: 59px;
     letter-spacing: 0px;
     text-align: center;
+  }
+
+  .lasis1 {
+    object-fit: cover;
+    position: absolute;
+    top: 6%;
+    right: calc(50% + 501px);
+    pointer-events: all;
+  }
+  .lasis2 {
+    object-fit: cover;
+    position: absolute;
+    top: 45%;
+    left: calc(50% + 501px);
+    pointer-events: all;
+  }
+  .lasis3 {
+    object-fit: cover;
+    position: absolute;
+    top: 77%;
+    right: calc(50% + 550px);
+    pointer-events: all;
   }
 }

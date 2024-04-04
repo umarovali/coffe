@@ -1,6 +1,6 @@
 import React from "react";
 import FootLink from "./FootLink/FootLink";
-import footerLogo from "../../assets/images/Logo.png";
+import footerLogo from "../../assets/images/footerLogo.svg";
 import icon from "../../assets/images/faceboockIcon.svg";
 import icon2 from "../../assets/images/twiter.svg";
 import icon3 from "../../assets/images/instagram.svg";
